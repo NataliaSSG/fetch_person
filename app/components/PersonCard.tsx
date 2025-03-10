@@ -1,8 +1,8 @@
 import React from 'react';
-import { PersonData } from '../types/people.response';
+import { PeopleResponse } from '../types/http/people.response';
 
 interface PersonCardProps {
-  person: PersonData;
+  person: PeopleResponse['results'][0];
 }
 
 const PersonCard: React.FC<PersonCardProps> = ({ person }) => {
