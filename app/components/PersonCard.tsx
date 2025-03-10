@@ -1,5 +1,5 @@
 import React from 'react';
-import { PersonData } from '../types/peopleResponse';
+import { PersonData } from '../types/people.response';
 
 interface PersonCardProps {
   person: PersonData;
